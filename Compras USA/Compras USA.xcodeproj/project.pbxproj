@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7222759298320BD003B69C2 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7222758298320BD003B69C2 /* TaxesCalculator.swift */; };
+		B722275B298325A9003B69C2 /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722275A298325A9003B69C2 /* UIViewController+TaxesCalculator.swift */; };
 		B7335167297ECAED00BE9A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7335166297ECAED00BE9A90 /* AppDelegate.swift */; };
 		B7335169297ECAED00BE9A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7335168297ECAED00BE9A90 /* SceneDelegate.swift */; };
 		B733516B297ECAED00BE9A90 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B733516A297ECAED00BE9A90 /* ShoppingViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7222758298320BD003B69C2 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		B722275A298325A9003B69C2 /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
 		B7335163297ECAED00BE9A90 /* Compras USA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compras USA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7335166297ECAED00BE9A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7335168297ECAED00BE9A90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				B733517A297ED14200BE9A90 /* SettingsViewController.swift */,
 				B733517C297ED15600BE9A90 /* TaxesViewController.swift */,
 				B733516C297ECAED00BE9A90 /* Main.storyboard */,
+				B7222758298320BD003B69C2 /* TaxesCalculator.swift */,
+				B722275A298325A9003B69C2 /* UIViewController+TaxesCalculator.swift */,
 				B733516F297ECAEF00BE9A90 /* Assets.xcassets */,
 				B7335171297ECAEF00BE9A90 /* LaunchScreen.storyboard */,
 				B7335174297ECAEF00BE9A90 /* Info.plist */,
@@ -147,6 +153,8 @@
 				B733516B297ECAED00BE9A90 /* ShoppingViewController.swift in Sources */,
 				B7335167297ECAED00BE9A90 /* AppDelegate.swift in Sources */,
 				B733517D297ED15600BE9A90 /* TaxesViewController.swift in Sources */,
+				B7222759298320BD003B69C2 /* TaxesCalculator.swift in Sources */,
+				B722275B298325A9003B69C2 /* UIViewController+TaxesCalculator.swift in Sources */,
 				B7335169297ECAED00BE9A90 /* SceneDelegate.swift in Sources */,
 				B733517B297ED14200BE9A90 /* SettingsViewController.swift in Sources */,
 			);
