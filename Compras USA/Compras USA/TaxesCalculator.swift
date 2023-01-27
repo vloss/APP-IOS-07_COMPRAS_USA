@@ -12,7 +12,7 @@ class TaxesCalculator {
     //singleton
     static let shared = TaxesCalculator()
     
-    var dolar: Double = 5.07
+    var dolar: Double = 5.11
     var iof: Double = 6.38
     var stateTax: Double = 7.0
     var shoppingValue: Double = 0
@@ -39,16 +39,26 @@ class TaxesCalculator {
             finalValue += iofValue
         }
         
-        return finalValue
+        return finalValue * dolar
     }
     
     func convertToDouble(_ string: String) -> Double{
         
+        //define formatador vazio
         formatter.numberStyle = .none
         
         // Pega a string converte em number e extrai do number um double
         return formatter.number(from: string)!.doubleValue
     }
+    
+    func getFormattedValue(of value: Double, withCurrency currency: String) -> String {
+        formatter.numberStyle = .currency
+        formatter.currencySymbol = currency
+        formatter.alwaysShowsDecimalSeparator = true
+        
+        return formatter.string(for: value)!
+    }
+    
     
     private init(){
         formatter.usesGroupingSeparator = true

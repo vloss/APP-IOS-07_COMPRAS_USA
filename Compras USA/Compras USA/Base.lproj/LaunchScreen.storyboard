@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="O0O-Pt-Coz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="O0O-Pt-Coz">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="O0O-Pt-Coz" secondAttribute="bottom" id="HyB-EX-T1f"/>
+                            <constraint firstItem="O0O-Pt-Coz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fot-2p-NCl"/>
+                            <constraint firstItem="O0O-Pt-Coz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="g98-X1-wmv"/>
+                            <constraint firstAttribute="trailing" secondItem="O0O-Pt-Coz" secondAttribute="trailing" id="lyX-tP-aoE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
