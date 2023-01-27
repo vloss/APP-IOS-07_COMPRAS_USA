@@ -30,9 +30,9 @@ class ShoppingViewController: UIViewController {
     }
     
     func setAmmount(){
+        //tc.dolar = Double(tfDolar.text!)!
         
-        tc.dolar = Double(tfDolar.text!)!
-        
+        tc.dolar = tc.convertToDouble(tfDolar.text!)
     }
 
 }
